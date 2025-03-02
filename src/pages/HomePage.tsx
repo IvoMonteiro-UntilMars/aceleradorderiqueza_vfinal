@@ -10,7 +10,7 @@ function HomePage() {
       <main className="flex-grow pt-16">
         {/* Hero Section */}
         <section id="inicio" className="min-h-screen flex items-center relative bg-[#00090F]">
-          <div className="absolute inset-0 bg-[url('fotofundo.jpg')] bg-cover bg-center opacity-15 backdrop-blur-sm"></div>
+          <div className="absolute inset-0 bg-[url('https://lh5.googleusercontent.com/dpYKZJzTr3uHzwpTjy4ZnBjOMSm0ODVWEsfCLjGI0RXSEtzzmcupB8ei-4NZb8xRLGHVKTbEBznMqJhYvZ9cK2I=w1280')] bg-cover bg-center opacity-15 backdrop-blur-sm"></div>
           <div className="container mx-auto px-4 py-20 grid md:grid-cols-2 gap-12 items-center relative">
             <div>
               <h2 className="text-5xl font-bold leading-tight mb-6">
@@ -36,7 +36,7 @@ function HomePage() {
             </div>
             <div className="relative">
               <img 
-                src="https://galleries.page.link/Mhy8B" 
+                src="https://lh6.googleusercontent.com/NDEUPoXEIb50Gs_pQCZDljRbv3sbBE5gN_vE9B3BkYhUz62nA5pXdp0nyo1J34i99BDBa19sM3zuw0JkIToqHscRMBYmVY3J9IfEaR-alX3gsvoqGu8AisR5zSpArBi4Ow=w1280" 
                 alt="Ivo Monteiro" 
                 className="rounded-lg shadow-2xl"
               />
@@ -89,7 +89,7 @@ function HomePage() {
                     onClick={() => setIsVideoPlaying(true)}
                   >
                     <img 
-                      src="Ivomonteiro.jpg" 
+                      src="https://lh4.googleusercontent.com/KQjT3L1Jq7MqrzO_j6a9PQKfXNWB4m-IChEkbuZthbVhFLSAbnYwnvTrEmZtI9vwFj8Y5kzrE77pTaDX6vvQE8-LPkAU9pBOVnuK7ZPkKP1oOq3uuc-l54XTYTKXXv2JPw=w1280" 
                       alt="Ivo Monteiro Professional" 
                       className="rounded-lg shadow-2xl w-full h-auto object-contain transition-transform duration-300 group-hover:scale-[1.02]"
                     />

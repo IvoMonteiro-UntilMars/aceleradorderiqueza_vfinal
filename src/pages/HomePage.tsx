@@ -36,7 +36,7 @@ function HomePage() {
             </div>
             <div className="relative">
               <img 
-                src="fotoprincipal.jpg" 
+                src="https://sb1xdjxppev-ylkb--5173--31ca1d38.local-credentialless.webcontainer.io/fotoprincipal.jpg" 
                 alt="Ivo Monteiro" 
                 className="rounded-lg shadow-2xl"
               />

@@ -26,7 +26,7 @@ const testimonials = [
   {
     id: "telmo",
     name: "Telmo Taipa",
-    image: "https://media.licdn.com/dms/image/v2/D4D03AQHhO4h2slV2_g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723894291701?e=1744848000&v=beta&t=SW8AcOrsy8WJLRhRuQYnGd9FuWV8BGBCl3KSABu0BLE",
+    image: "https://lh3.googleusercontent.com/ixRDAgqyUImoAkKoatx0GOJnD_YBBKgSiLc6gPsKF9ef1od0nxw9jUk2qcydpya032ezuK8QdZk5hDNqhMfffyrYeUpq1FkUbbovVuasH-L3_k0hCHdQnXTyq9rCxa8GFQ=w1280",
     quote: "Com o Ivo demos os primeiros passos em como trazer vendas para a nossa empresa.",
     role: "Founder ADECI Group",
   }

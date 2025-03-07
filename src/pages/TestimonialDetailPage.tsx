@@ -34,7 +34,7 @@ const testimonials = {
   gustavo: {
     name: "Gustavo Rocha",
     role: "CEO SOU Real Estate",
-    image: "https://media.licdn.com/dms/image/v2/D4D03AQEvgM1ldiEdoQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1720710894111?e=1744848000&v=beta&t=toQLFVgwAj-ZGv8qhzjHK33JARYWczdNKyjE38xkDb4",
+    image: "https://lh6.googleusercontent.com/vDAPX5eTeTR38jDLF0a2FIGD7pWnnyoCmJlgZEi9k4I3RgnuNXGvueujrGwqos8tkhG6pl2WEX51lT7hY7huYLrw3EMa4xYqn7X8f7bgwc0NQuZipAaDpDgRU3j1FBtiDQ=w1280",
     quote: "Conheço o Ivo há mais de 6 anos e começámos esta parceria um ano depois de eu ter aberto a SOU. O resultado ao fim de um ano? Crescimento de 400% no volume de faturação.",
     website: "https://www.sou-re.com/",
     instagram: "https://www.instagram.com/sou.gustavorocha/",
@@ -50,7 +50,7 @@ const testimonials = {
   telmo: {
     name: "Telmo Taipa",
     role: "Founder ADECI Group",
-    image: "https://media.licdn.com/dms/image/v2/D4D03AQHhO4h2slV2_g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723894291701?e=1744848000&v=beta&t=SW8AcOrsy8WJLRhRuQYnGd9FuWV8BGBCl3KSABu0BLE",
+    image: "https://lh3.googleusercontent.com/_Pl9CLrSW4XLhBuHtpnC5hICNWu8QQ1HkTCH_PPfhtH0u7EXYEmU9ToncqDInkiSHAm4sfsYIxPtFrNQc4BvCeXFfYYS0eeK5bSe-r2M01ChRZDIKIO37NXzQesE0cblYg=w1280",
     quote: "Tivemos a sorte de, no início da jornada da ADECI, contar com o Ivo para criar a nossa primeira abordagem comercial a clientes. Foi com ele que demos os primeiros passos em como trazer vendas para a nossa empresa.",
     website: "https://adecigroup.com/",
     instagram: "https://www.instagram.com/telmo_taipa/",

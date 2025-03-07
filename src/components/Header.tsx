@@ -8,7 +8,7 @@ function Header() {
   const isHomePage = location.pathname === '/';
 
   return (
-    <header className="fixed w-full bg-[#00090F]/90 backdrop-blur-sm z-50 border-b border-[#ff4d00]/10">
+    <header className="fixed w-full bg-[#00090F] z-50 border-b border-[#ff4d00]/10">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between text-white">
           <Link to="/" className="text-2xl font-bold text-white">Ivo Monteiro</Link>

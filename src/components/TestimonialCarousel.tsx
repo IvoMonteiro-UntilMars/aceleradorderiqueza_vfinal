@@ -14,14 +14,14 @@ const testimonials = [
     text: "Crescimento de 400% no volume de faturação em apenas um ano.",
     author: "Gustavo Rocha",
     role: "CEO SOU Real Estate",
-    image: "https://media.licdn.com/dms/image/v2/D4D03AQEvgM1ldiEdoQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1720710894111?e=1744848000&v=beta&t=toQLFVgwAj-ZGv8qhzjHK33JARYWczdNKyjE38xkDb4"
+    image: "https://lh6.googleusercontent.com/Ojn3fQkmFoHYTg7E-Un8DKqxRvJg0onyW4nTNgetZ6cxOQpCZDgQQg-uhjcOs6ce0rJXdTLqxZ3R5nJhmuUn7JJTjToZ8nO7UIVcgmKdg6-mfMIVcbMpxYGqBlRosHKSng=w1280"
   },
   {
     id: "telmo",
     text: "Com o Ivo demos os primeiros passos em como trazer vendas para a nossa empresa.",
     author: "Telmo Taipa",
     role: "Founder ADECI Group",
-    image: "https://media.licdn.com/dms/image/v2/D4D03AQHhO4h2slV2_g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723894291701?e=1744848000&v=beta&t=SW8AcOrsy8WJLRhRuQYnGd9FuWV8BGBCl3KSABu0BLE"
+    image: "https://lh3.googleusercontent.com/ixRDAgqyUImoAkKoatx0GOJnD_YBBKgSiLc6gPsKF9ef1od0nxw9jUk2qcydpya032ezuK8QdZk5hDNqhMfffyrYeUpq1FkUbbovVuasH-L3_k0hCHdQnXTyq9rCxa8GFQ=w1280"
   }
 ];
 

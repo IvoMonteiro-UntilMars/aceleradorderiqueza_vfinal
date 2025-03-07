@@ -50,7 +50,7 @@ const testimonials = {
   telmo: {
     name: "Telmo Taipa",
     role: "Founder ADECI Group",
-    image: "https://lh3.googleusercontent.com/_Pl9CLrSW4XLhBuHtpnC5hICNWu8QQ1HkTCH_PPfhtH0u7EXYEmU9ToncqDInkiSHAm4sfsYIxPtFrNQc4BvCeXFfYYS0eeK5bSe-r2M01ChRZDIKIO37NXzQesE0cblYg=w1280",
+    image: "https://lh3.googleusercontent.com/ixRDAgqyUImoAkKoatx0GOJnD_YBBKgSiLc6gPsKF9ef1od0nxw9jUk2qcydpya032ezuK8QdZk5hDNqhMfffyrYeUpq1FkUbbovVuasH-L3_k0hCHdQnXTyq9rCxa8GFQ=w1280",
     quote: "Tivemos a sorte de, no início da jornada da ADECI, contar com o Ivo para criar a nossa primeira abordagem comercial a clientes. Foi com ele que demos os primeiros passos em como trazer vendas para a nossa empresa.",
     website: "https://adecigroup.com/",
     instagram: "https://www.instagram.com/telmo_taipa/",

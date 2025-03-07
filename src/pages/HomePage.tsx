@@ -105,7 +105,7 @@ function HomePage() {
                     </div>
                   </div>
                 ) : (
-                  <div className="relative transition-all duration-500 ease-in-out w-full pb-[56.25%]">
+                  <div className="relative transition-all duration-500 ease-in-out w-full pb-[177.77%]">
                     <iframe
                       src="https://www.youtube.com/embed/2yRCc-C7HZw?autoplay=1"
                       title="Ivo Monteiro Video"

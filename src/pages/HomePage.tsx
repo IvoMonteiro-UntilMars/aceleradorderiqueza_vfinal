@@ -86,7 +86,7 @@ function HomePage() {
                   </li>
                 </ul>
               </div>
-              {/* Vídeo / Capa */}
+             {/* Vídeo / Capa */}
               <div className="relative group w-[80%] ml-auto mr-[-5%]">
                 {!isVideoPlaying ? (
                   <div 
@@ -96,7 +96,7 @@ function HomePage() {
                     <img 
                       src="https://lh6.googleusercontent.com/4lFwzuFsoLQN2v-PYfWqezNnGdcb6QmEajRssI74I_Lu9Q0j4_CsvdSeUvUFxy-NqGV2Hp244qlPAeK99CVHe0CKUgPdaOuohjn0r0kWuklrmxaOTVeyTinCyb_mAse04Q=w1280" 
                       alt="Ivo Monteiro Professional" 
-                      className="rounded-lg shadow-2xl w-full h-auto object-cover transition-transform duration-300 group-hover:scale-[1.02]" // Alterado para ajustar a formatação da imagem
+                      className="rounded-lg shadow-2xl w-full h-auto object-contain transition-transform duration-300 group-hover:scale-[1.02]"
                     />
                     <div className="absolute inset-0 bg-black bg-opacity-30 rounded-lg transition-opacity duration-300 group-hover:bg-opacity-50 flex items-center justify-center">
                       <div className="w-20 h-20 rounded-full bg-[#FC2406] flex items-center justify-center transition-transform duration-300 group-hover:scale-110">

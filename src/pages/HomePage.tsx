@@ -10,7 +10,12 @@ function HomePage() {
       <main className="flex-grow pt-16">
         {/* Hero Section */}
         <section id="inicio" className="min-h-screen flex items-center relative bg-[#00090F]">
-          <div className="absolute inset-0 bg-[url('https://lh5.googleusercontent.com/dpYKZJzTr3uHzwpTjy4ZnBjOMSm0ODVWEsfCLjGI0RXSEtzzmcupB8ei-4NZb8xRLGHVKTbEBznMqJhYvZ9cK2I=w1280')] bg-cover bg-center opacity-15 backdrop-blur-sm"></div>
+          <div 
+            className="absolute inset-0 bg-cover bg-center opacity-15 backdrop-blur-sm"
+            style={{
+              backgroundImage: `url('https://lh4.googleusercontent.com/2p0JTRV7AVtlSCSzuxzt0pH1J0j1teJjPLkMVLF2jGmvW9sLJKeUzMyFlgnmf1nEMy0ucOqALB0hMDbydVfbyQ4=w1280')`,
+            }}
+          ></div>
           <div className="container mx-auto px-4 py-20 grid md:grid-cols-2 gap-12 items-center relative">
             <div>
               <h2 className="text-5xl font-bold leading-tight mb-6">
@@ -36,15 +41,15 @@ function HomePage() {
             </div>
             <div className="relative">
               <img 
-                src="https://lh6.googleusercontent.com/NDEUPoXEIb50Gs_pQCZDljRbv3sbBE5gN_vE9B3BkYhUz62nA5pXdp0nyo1J34i99BDBa19sM3zuw0JkIToqHscRMBYmVY3J9IfEaR-alX3gsvoqGu8AisR5zSpArBi4Ow=w1280" 
+                src="https://lh6.googleusercontent.com/3RYk2DljYkNfOLjYPCoRBxjCMQ_X9w5SNeS0YoSF8bX-pHfhlA_aZqPXIHP57jvB6pGizF-7WrXLlQCY26c65JVK9gQOuzq83HAAQVvj70ItuzD2wPO3DxxJcliShpQLxg=w1280" 
                 alt="Ivo Monteiro" 
-                className="rounded-lg shadow-2xl"
+                className="rounded-lg shadow-2xl object-center"
               />
             </div>
           </div>
         </section>
 
-        {/* Sobre Section */}
+         {/* Sobre Section */}
         <section id="sobre" className="relative bg-[#00090F]">
           <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=2071&auto=format&fit=crop')] bg-cover bg-center opacity-5 backdrop-blur-sm"></div>
           <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-[#00090F] to-transparent z-10"></div>
@@ -89,9 +94,9 @@ function HomePage() {
                     onClick={() => setIsVideoPlaying(true)}
                   >
                     <img 
-                      src="https://lh4.googleusercontent.com/KQjT3L1Jq7MqrzO_j6a9PQKfXNWB4m-IChEkbuZthbVhFLSAbnYwnvTrEmZtI9vwFj8Y5kzrE77pTaDX6vvQE8-LPkAU9pBOVnuK7ZPkKP1oOq3uuc-l54XTYTKXXv2JPw=w1280" 
+                      src="https://lh6.googleusercontent.com/4lFwzuFsoLQN2v-PYfWqezNnGdcb6QmEajRssI74I_Lu9Q0j4_CsvdSeUvUFxy-NqGV2Hp244qlPAeK99CVHe0CKUgPdaOuohjn0r0kWuklrmxaOTVeyTinCyb_mAse04Q=w1280" 
                       alt="Ivo Monteiro Professional" 
-                      className="rounded-lg shadow-2xl w-full h-auto object-contain transition-transform duration-300 group-hover:scale-[1.02]"
+                      className="rounded-lg shadow-2xl w-full h-auto object-cover transition-transform duration-300 group-hover:scale-[1.02]" // Alterado para ajustar a formatação da imagem
                     />
                     <div className="absolute inset-0 bg-black bg-opacity-30 rounded-lg transition-opacity duration-300 group-hover:bg-opacity-50 flex items-center justify-center">
                       <div className="w-20 h-20 rounded-full bg-[#FC2406] flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
@@ -100,7 +105,7 @@ function HomePage() {
                     </div>
                   </div>
                 ) : (
-                  <div className="relative transition-all duration-500 ease-in-out w-full pb-[177.77%]">
+                  <div className="relative transition-all duration-500 ease-in-out w-full pb-[56.25%]">
                     <iframe
                       src="https://www.youtube.com/embed/2yRCc-C7HZw?autoplay=1"
                       title="Ivo Monteiro Video"

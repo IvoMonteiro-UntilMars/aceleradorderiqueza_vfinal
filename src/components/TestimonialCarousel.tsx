@@ -14,14 +14,14 @@ const testimonials = [
     text: "Crescimento de 400% no volume de faturação em apenas um ano.",
     author: "Gustavo Rocha",
     role: "CEO SOU Real Estate",
-    image: "https://lh6.googleusercontent.com/Ojn3fQkmFoHYTg7E-Un8DKqxRvJg0onyW4nTNgetZ6cxOQpCZDgQQg-uhjcOs6ce0rJXdTLqxZ3R5nJhmuUn7JJTjToZ8nO7UIVcgmKdg6-mfMIVcbMpxYGqBlRosHKSng=w1280"
+    image: "https://imgur.com/tZeNsMs.jpg"
   },
   {
     id: "telmo",
     text: "Com o Ivo demos os primeiros passos em como trazer vendas para a nossa empresa.",
     author: "Telmo Taipa",
     role: "Founder ADECI Group",
-    image: "https://lh3.googleusercontent.com/ixRDAgqyUImoAkKoatx0GOJnD_YBBKgSiLc6gPsKF9ef1od0nxw9jUk2qcydpya032ezuK8QdZk5hDNqhMfffyrYeUpq1FkUbbovVuasH-L3_k0hCHdQnXTyq9rCxa8GFQ=w1280"
+    image: "https://imgur.com/HqufLie.jpg"
   }
 ];
 

@@ -13,7 +13,7 @@ function HomePage() {
           <div 
             className="absolute inset-0 bg-cover bg-center opacity-15 backdrop-blur-sm"
             style={{
-              backgroundImage: `url('https://imgur.com/wd553Rj')`,
+              backgroundImage: `url('https://imgur.com/wd553Rj.jpg')`,
             }}
           ></div>
           <div className="container mx-auto px-4 py-20 grid md:grid-cols-2 gap-12 items-center relative">
@@ -41,7 +41,7 @@ function HomePage() {
             </div>
             <div className="relative">
               <img 
-                src="https://imgur.com/lP4jRmf" 
+                src="https://imgur.com/lP4jRmf.jpg" 
                 alt="Ivo Monteiro" 
                 className="rounded-lg shadow-2xl object-center"
               />

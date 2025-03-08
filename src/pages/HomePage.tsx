@@ -13,7 +13,7 @@ function HomePage() {
           <div 
             className="absolute inset-0 bg-cover bg-center opacity-15 backdrop-blur-sm"
             style={{
-              backgroundImage: `url('https://lh3.googleusercontent.com/L9xI3h30y0oE8beKEaI-XzSBkA1BEdIaLea14tb_HjlOgUkdmKPtb6Kw85uq2UdTBwjPKeHC_GxqrS81pEhdEm4=w1280')`,
+              backgroundImage: `url('https://drive.google.com/file/d/1nRy--Tk-3DlQUMFZXfbfNt1G4YAtOUm_/view?usp=sharing')`,
             }}
           ></div>
           <div className="container mx-auto px-4 py-20 grid md:grid-cols-2 gap-12 items-center relative">

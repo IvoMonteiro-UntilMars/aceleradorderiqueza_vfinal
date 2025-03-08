@@ -13,7 +13,7 @@ function HomePage() {
           <div 
             className="absolute inset-0 bg-cover bg-center opacity-15 backdrop-blur-sm"
             style={{
-              backgroundImage: `url('https://drive.google.com/file/d/1nRy--Tk-3DlQUMFZXfbfNt1G4YAtOUm_/view?usp=sharing')`,
+              backgroundImage: `url('https://imgur.com/wd553Rj')`,
             }}
           ></div>
           <div className="container mx-auto px-4 py-20 grid md:grid-cols-2 gap-12 items-center relative">
@@ -41,7 +41,7 @@ function HomePage() {
             </div>
             <div className="relative">
               <img 
-                src="https://lh6.googleusercontent.com/3RYk2DljYkNfOLjYPCoRBxjCMQ_X9w5SNeS0YoSF8bX-pHfhlA_aZqPXIHP57jvB6pGizF-7WrXLlQCY26c65JVK9gQOuzq83HAAQVvj70ItuzD2wPO3DxxJcliShpQLxg=w1280" 
+                src="https://imgur.com/lP4jRmf" 
                 alt="Ivo Monteiro" 
                 className="rounded-lg shadow-2xl object-center"
               />
@@ -94,7 +94,7 @@ function HomePage() {
                     onClick={() => setIsVideoPlaying(true)}
                   >
                     <img 
-                      src="https://lh6.googleusercontent.com/4lFwzuFsoLQN2v-PYfWqezNnGdcb6QmEajRssI74I_Lu9Q0j4_CsvdSeUvUFxy-NqGV2Hp244qlPAeK99CVHe0CKUgPdaOuohjn0r0kWuklrmxaOTVeyTinCyb_mAse04Q=w1280" 
+                      src="https://imgur.com/6DrpkrE" 
                       alt="Ivo Monteiro Professional" 
                       className="rounded-lg shadow-2xl w-full h-auto object-contain transition-transform duration-300 group-hover:scale-[1.02]"
                     />

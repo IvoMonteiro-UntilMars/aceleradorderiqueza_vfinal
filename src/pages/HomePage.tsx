@@ -94,7 +94,7 @@ function HomePage() {
                     onClick={() => setIsVideoPlaying(true)}
                   >
                     <img 
-                      src="https://imgur.com/6DrpkrE" 
+                      src="https://imgur.com/6DrpkrE.jpg" 
                       alt="Ivo Monteiro Professional" 
                       className="rounded-lg shadow-2xl w-full h-auto object-contain transition-transform duration-300 group-hover:scale-[1.02]"
                     />

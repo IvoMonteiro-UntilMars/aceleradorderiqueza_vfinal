@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
+import { useDeviceType } from '../hooks/useDeviceType';
 
 const testimonials = {
   fatima: {
@@ -68,13 +69,15 @@ const testimonials = {
 function TestimonialDetailPage() {
   const { id } = useParams();
   const testimonial = testimonials[id as keyof typeof testimonials];
+  const deviceType = useDeviceType();
+  const isMobile = deviceType === 'mobile';
 
   if (!testimonial) {
     return (
       <div className="min-h-screen bg-[#0a0d11] text-white flex flex-col">
         <div className="flex-grow flex items-center justify-center">
-          <div className="text-center">
-            <h1 className="text-4xl font-bold mb-4">Testemunho não encontrado</h1>
+          <div className="text-center px-4">
+            <h1 className={`${isMobile ? 'text-2xl' : 'text-4xl'} font-bold mb-4`}>Testemunho não encontrado</h1>
             <Link 
               to="/testemunhos" 
               className="text-[#ff4d00] hover:text-[#ff6b33] transition-colors"
@@ -90,36 +93,36 @@ function TestimonialDetailPage() {
   return (
     <div className="min-h-screen bg-[#0a0d11] text-white flex flex-col">
       <main className="flex-grow pt-16">
-        <div className="container mx-auto px-4 pt-32 pb-20">
-          <div className="max-w-4xl mx-auto">
-            <div className="relative mb-12">
+        <div className={`container mx-auto px-4 ${isMobile ? 'pt-20 pb-12' : 'pt-32 pb-20'}`}>
+          <div className={`${isMobile ? 'w-full' : 'max-w-4xl'} mx-auto`}>
+            <div className={`relative ${isMobile ? 'mb-8' : 'mb-12'}`}>
               <img
                 src={testimonial.image}
                 alt={testimonial.name}
-                className="w-full h-[500px] object-cover object-center object-top rounded-lg"
+                className={`w-full ${isMobile ? 'h-[300px]' : 'h-[500px]'} object-cover object-center object-top rounded-lg`}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0a0d11] via-transparent to-transparent"></div>
             </div>
 
-            <h1 className="text-4xl font-bold mb-2 text-[#FC2406]">{testimonial.name}</h1>
+            <h1 className={`${isMobile ? 'text-3xl' : 'text-4xl'} font-bold mb-2 text-[#FC2406]`}>{testimonial.name}</h1>
             {testimonial.role && (
-              <p className="text-xl text-gray-400 mb-6">{testimonial.role}</p>
+              <p className={`${isMobile ? 'text-lg' : 'text-xl'} text-gray-400 mb-6`}>{testimonial.role}</p>
             )}
 
-            <div className="bg-[#0f1318] p-8 rounded-lg mb-8">
-              <p className="text-2xl text-gray-300 italic mb-6">"{testimonial.quote}"</p>
+            <div className={`bg-[#0f1318] p-6 ${isMobile ? 'mb-6' : 'p-8 mb-8'} rounded-lg`}>
+              <p className={`${isMobile ? 'text-xl' : 'text-2xl'} text-gray-300 italic mb-6`}>"{testimonial.quote}"</p>
               <div className="text-gray-300 whitespace-pre-line">
                 {testimonial.fullStory}
               </div>
             </div>
 
-            <div className="flex flex-wrap gap-4">
+            <div className={`flex flex-wrap gap-4 ${isMobile ? 'flex-col' : ''}`}>
               {testimonial.instagram && (
                 <a
                   href={testimonial.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-[#FC2406] hover:bg-[#ff6b33] px-6 py-3 rounded-full transition-colors"
+                  className={`inline-block bg-[#FC2406] hover:bg-[#ff6b33] ${isMobile ? 'w-full text-center' : ''} px-6 py-3 rounded-full transition-colors`}
                 >
                   Ver no Instagram →
                 </a>
@@ -129,7 +132,7 @@ function TestimonialDetailPage() {
                   href={testimonial.website}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-[#FC2406] hover:bg-[#ff6b33] px-6 py-3 rounded-full transition-colors"
+                  className={`inline-block bg-[#FC2406] hover:bg-[#ff6b33] ${isMobile ? 'w-full text-center' : ''} px-6 py-3 rounded-full transition-colors`}
                 >
                   Visitar Website →
                 </a>

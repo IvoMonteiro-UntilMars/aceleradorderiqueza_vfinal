@@ -201,7 +201,7 @@ function HomePage() {
                 "Procura esquemas de enriquecimento rápido",
                 "Não está disposto a aprender e implementar novas estratégias",
                 "Espera resultados sem dedicação e compromisso",
-                "Não quer investir no desenvolvimento pessoal"
+                "Não quer investir no seu desenvolvimento pessoal"
               ].map((item, index) => (
                 <div key={index} className="flex items-center gap-4 bg-[#FC2406] p-6 rounded-lg">
                   <XCircle className="text-white-900 flex-shrink-0" />
